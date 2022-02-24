@@ -20,7 +20,7 @@ export function LoginView(props) {
             <input type="checkbox" id="c-box" aria-hidden="true" />
             <div className="login">
                 <form>
-                    <label htmlFor="c-box" aria-hidden="true">MyFlix</label>
+                    <label htmlFor="c-box" aria-hidden="true">myFlix</label>
                     <input type="text" name="txt" placeholder="Username" value={username} onChange={e => setUsername(e.target.value)} required="" />
                     <input type="password" name="pswd" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} required="" />
                     <button type="submit" onClick={handleSubmit}>Login</button>
